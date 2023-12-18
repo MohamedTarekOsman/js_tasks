@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #000000;
+}
+
+div {
+  text-align: center;
+}
+
+div h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  padding: 3rem 0rem;
+  color: var(--mainColor);
+}
+
+div p,
+div h5 {
+  color: var(--mainColor);
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+div .click {
+  padding: 1rem 3rem;
+}
+
+div .click:hover {
+  background-color: aqua;
+  color: var(--mainColor);
+}
